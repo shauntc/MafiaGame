@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		287A36A51D8A1687001D8758 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 287A36A41D8A1687001D8758 /* main.m */; };
+		287A36A81D8A1687001D8758 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 287A36A71D8A1687001D8758 /* AppDelegate.m */; };
+		287A36AB1D8A1687001D8758 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 287A36AA1D8A1687001D8758 /* ViewController.m */; };
+		287A36AE1D8A1687001D8758 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 287A36AC1D8A1687001D8758 /* Main.storyboard */; };
+		287A36B01D8A1687001D8758 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 287A36AF1D8A1687001D8758 /* Assets.xcassets */; };
+		287A36B31D8A1687001D8758 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 287A36B11D8A1687001D8758 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		287A36A01D8A1687001D8758 /* MafiaGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MafiaGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		287A36A41D8A1687001D8758 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		287A36A61D8A1687001D8758 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		287A36A71D8A1687001D8758 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		287A36A91D8A1687001D8758 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		287A36AA1D8A1687001D8758 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		287A36AD1D8A1687001D8758 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		287A36AF1D8A1687001D8758 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		287A36B21D8A1687001D8758 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		287A36B41D8A1687001D8758 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		287A369D1D8A1687001D8758 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		287A36971D8A1687001D8758 = {
+			isa = PBXGroup;
+			children = (
+				287A36A21D8A1687001D8758 /* MafiaGame */,
+				287A36A11D8A1687001D8758 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		287A36A11D8A1687001D8758 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				287A36A01D8A1687001D8758 /* MafiaGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		287A36A21D8A1687001D8758 /* MafiaGame */ = {
+			isa = PBXGroup;
+			children = (
+				287A36A61D8A1687001D8758 /* AppDelegate.h */,
+				287A36A71D8A1687001D8758 /* AppDelegate.m */,
+				287A36A91D8A1687001D8758 /* ViewController.h */,
+				287A36AA1D8A1687001D8758 /* ViewController.m */,
+				287A36AC1D8A1687001D8758 /* Main.storyboard */,
+				287A36AF1D8A1687001D8758 /* Assets.xcassets */,
+				287A36B11D8A1687001D8758 /* LaunchScreen.storyboard */,
+				287A36B41D8A1687001D8758 /* Info.plist */,
+				287A36A31D8A1687001D8758 /* Supporting Files */,
+			);
+			path = MafiaGame;
+			sourceTree = "<group>";
+		};
+		287A36A31D8A1687001D8758 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				287A36A41D8A1687001D8758 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		287A369F1D8A1687001D8758 /* MafiaGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 287A36B71D8A1687001D8758 /* Build configuration list for PBXNativeTarget "MafiaGame" */;
+			buildPhases = (
+				287A369C1D8A1687001D8758 /* Sources */,
+				287A369D1D8A1687001D8758 /* Frameworks */,
+				287A369E1D8A1687001D8758 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MafiaGame;
+			productName = MafiaGame;
+			productReference = 287A36A01D8A1687001D8758 /* MafiaGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		287A36981D8A1687001D8758 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Shaun Campbell";
+				TargetAttributes = {
+					287A369F1D8A1687001D8758 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 287A369B1D8A1687001D8758 /* Build configuration list for PBXProject "MafiaGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 287A36971D8A1687001D8758;
+			productRefGroup = 287A36A11D8A1687001D8758 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				287A369F1D8A1687001D8758 /* MafiaGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		287A369E1D8A1687001D8758 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				287A36B31D8A1687001D8758 /* LaunchScreen.storyboard in Resources */,
+				287A36B01D8A1687001D8758 /* Assets.xcassets in Resources */,
+				287A36AE1D8A1687001D8758 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		287A369C1D8A1687001D8758 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				287A36AB1D8A1687001D8758 /* ViewController.m in Sources */,
+				287A36A81D8A1687001D8758 /* AppDelegate.m in Sources */,
+				287A36A51D8A1687001D8758 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		287A36AC1D8A1687001D8758 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				287A36AD1D8A1687001D8758 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		287A36B11D8A1687001D8758 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				287A36B21D8A1687001D8758 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		287A36B51D8A1687001D8758 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		287A36B61D8A1687001D8758 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		287A36B81D8A1687001D8758 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MafiaGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shauntc.MafiaGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		287A36B91D8A1687001D8758 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MafiaGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shauntc.MafiaGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		287A369B1D8A1687001D8758 /* Build configuration list for PBXProject "MafiaGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				287A36B51D8A1687001D8758 /* Debug */,
+				287A36B61D8A1687001D8758 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		287A36B71D8A1687001D8758 /* Build configuration list for PBXNativeTarget "MafiaGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				287A36B81D8A1687001D8758 /* Debug */,
+				287A36B91D8A1687001D8758 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 287A36981D8A1687001D8758 /* Project object */;
+}
